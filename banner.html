@@ -4,53 +4,48 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Document</title>
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Inter:ital,opsz,wght@0,14..32,100..900;1,14..32,100..900&family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap" rel="stylesheet">
     <link rel="stylesheet" href="banner.css">
-</head>
 <body>
+    <!-- Header -->
     <header class="header">
         <div class="container">
-        <div class="flex items-center justify-center w-full wrapper">
-            <div class="logo">
-                <img src="images/logo.png" alt="logo" />
-            </div>
-            <div class="main-header">
-                <nav>
-                    <ul class="nav-menu flex">
-                        <li>
-                            <a href="#" class="active">Home</a>
-                        </li>
-                        <li>
-                            <a href="#">Shop</a>
-                        </li>
-                        <li>
-                            <a href="#">Men</a>
-                        </li>
-                        <li>
-                            <a href="#">Women</a>
-                        </li>
-                        <li>
-                            <a href="#">Kids</a>
-                        </li>
-                        <li>
-                            <a href="#">content-us</a>
-                        </li>
-                    </ul>
-                </nav>
-            </div>
-            <div class="icons">
-                <div class="flex">
-                    <img src="images/user.png" alt="user" />
-                    <img src="images/search.png" alt="search" />
-                    <img src="images/shopping-bag.png" alt="shopping-bag" />
+            <div class="flex item-center justify-center w-full wrapper">
+                <!-- Logo -->
+                <div class="logo">
+                    <img src="images/logo.png" alt="logo" class="logo" />
+                </div>
+
+                <!-- Navigation -->
+                <div class="main-header">
+                    <nav>
+                        <ul class="nav-menu flex">
+
+                            <li><a href="#" class="active">Home</a></li>
+                            <li><a href="#">Shop</a></li>
+                            <li><a href="#">Men</a></li>
+                            <li><a href="#">Women</a></li>
+                            <li><a href="#">Kids</a></li>
+                            <li><a href="#">Contact us</a></li>
+                        </ul>
+                    </nav>
+                </div>
+
+                <!-- Icons -->
+                <div class="icons flex">
+                    <img src="images/user.png" alt="user" class="user" />
+                    <img src="images/search.png" alt="search" class="search" />
+                    <img src="images/shopping-bag.png" alt="shopping-bag" class="shopping" />
                 </div>
             </div>
         </div>
-        </div>
-    </header>
+  </header>
     <section class="banner">
         <div class="container">
-            <div class="flex items-center w-full">
-                <div class="w-40">
+            <div class=" hero flex items-center justify-center">
+                <div class="hero-content">
                     <h1 class="heading"><span class="bold">Fashion</span> Up Your Look</h1>
                     <p class="paragraph">30 Skins, powerful features, great support, exclusive offer</p>
                     <a href="#" class="btn">Shop Now</a>
@@ -62,7 +57,7 @@
                      <span></span>
                    </div>
                 </div>
-                <div class="w-60">
+                <div class="hero-image flex item-center">
                     <img src="images/Anti.png" alt="Anti" />
                 </div>
             </div>
@@ -206,5 +201,151 @@
         </div>
     </section>
 
+    <div class="container">
+    <div class="blog-header">
+      <h2><span>Latest</span> From Blog</h2>
+      <p>Top Products Of This Week</p>
+    </div>
+
+    <div class="blog-row flex justify-center">
+      <!-- Blog Card 1 -->
+      <div class="blog-card flex">
+        <img src="images/Latest1.png" alt="Latest1">
+        <div class="blog-content flex">
+          <h3>Aenean egestas libero.</h3>
+          <div class="line"></div>
+          <p>Amet minim mollit non deserunt ullamco est sit aliqua dolor do amet sint. Velit officia consequat duis enim velit mollit.Exercitation veniam consequat sunt.</p>
+          <span class="icon">
+            <img src="images/calendar.png" alt="calendar">
+            12-Aug-2022
+            <img src="images/user-blog.png" alt="user">
+            John Smith
+        </span>
+          <button class="read-btn">Read More</button>
+        </div>
+    </div>
+
+    <!-- Blog Card 2 -->
+    <div class="blog-card flex">
+      <img src="images/Latest2.png" alt="Latest2">
+      <div class="blog-content flex">
+        <h3>Aenean egestas libero.</h3>
+        <div class="line"></div>
+        <p>Amet minim mollit non deserunt ullamco est sit aliqua dolor do amet sint. Velit officia consequat duis enim velit mollit.Exercitation veniam consequat sunt.</p>
+        <span class="icon">
+            <img src="images/calendar.png" alt="calendar">
+            12-Aug-2022
+            <img src="images/user-blog.png" alt="user">
+            John Smith
+        </span>
+        <button class="read-btn">Read More</button>
+      </div>
+    </div>
+
+    <!-- Blog Card 3 -->
+    <div class="blog-card flex">
+      <img src="images/Latest3.png" alt="Latest3">
+      <div class="blog-content flex">
+        <h3>Aenean egestas libero.</h3>
+        <div class="line"></div>
+        <p>Amet minim mollit non deserunt ullamco est sit aliqua dolor do amet sint. Velit officia consequat duis enim velit mollit.Exercitation veniam consequat sunt.</p>
+        <span class="icon">
+            <img src="images/calendar.png" alt="calendar">
+            12-Aug-2022
+            <img src="images/user-blog.png" alt="user">
+            John Smith
+        </span>
+        <button class="read-btn">Read More</button>
+      </div>
+    </div>
+  </div>
+    
+    <!-- Footer Start -->
+     <div class="footer">
+    <footer>
+    <div class="container">
+    <div class="arrow-wrapper flex justify-center">
+      <span class="up-arrow flex justify-center items-center">
+        <img src="images/Arrow.png" alt="Arrow">
+      </span>
+    </div>
+
+      <div class="footer-top flex wrap">
+        <div class="About-Us">
+          <h3>About</h3>
+          <span class="line"></span>
+          <p>
+            Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat tempor incididunt.
+          </p>
+        </div>
+
+        <div class="footer-col">
+          <h3>Buy With Us</h3>
+          <span class="line"></span>
+          <nav>
+            <ul>
+              <li><a href="#">About Us</a></li>
+              <li><a href="#">Services</a></li>
+              <li><a href="#">Contact Us</a></li>
+              <li><a href="#">FAQs</a></li>
+              <li><a href="#">Privacy Policy</a></li>
+              <li><a href="#">Cookie Policy</a></li>
+              <li><a href="#">Terms and Conditions</a></li>
+            </ul>
+          </nav>
+        </div>
+
+
+        <div class="footer-col">
+          <h3>Categories</h3>
+          <span class="line"></span>
+          <ul>
+            <li><a href="#">Women</a></li>
+            <li><a href="#">Men</a></li>
+            <li><a href="#">Accessories</a></li>
+            <li><a href="#">Shoes</a></li>
+            <li><a href="#">New Arrivals</a></li>
+            <li><a href="#">Clearence</a></li>
+          </ul>
+        </div>
+
+        <div class="contact-Us">
+          <h3>Contact Us</h3>
+          <span class="line"></span>
+          <div class="contact-items flex items-center">
+          <img src="images/location.png" alt="Location">
+          <p> 7895 Piermont Dr NE Albuquerque, NM 198866, United States of US.</p>
+          </div>
+          <div class="contact-items flex items-center">
+          <img src="images/phone.png" alt="Phone">
+          <p> +0 123 456 7890</p>
+          </div>
+          <div class="contact-items flex items-center">
+          <img src="images/Message.png" alt="Message">
+          <p>john.smith@domain.com</p>
+          </div>
+          <div class="social-icons">
+            <a href="#"><img src="images/facebook.png" alt="facebook-logo"></a>
+            <a href="#"><img src="images/twitter.png" alt="twitter-logo"></a>
+            <a href="#"><img src="images/linkedin.png" alt="linkedin-logo"></a>
+            <a href="#"><img src="images/instagram.png" alt="instagram-logo"></a>
+          </div>
+        </div>
+      </div>
+
+      <div class="footer-End">
+        <span class="border"></span>
+        <img src="images/logo.png" alt="logo"><p>© e-commerce 2022. All Rights Reserved</p>
+        <div class="ATM-Card">
+          <img src="images/image1.png" alt="image1">
+          <img src="images/image2.png" alt="image2">
+          <img src="images/image3.png" alt="image3">
+          <img src="images/image4.png" alt="image4">
+          <img src="images/image5.png" alt="image5">
+        </div>
+      </div>
+    </div>
+  </footer>
+  </div>
 </body>
 </html>
