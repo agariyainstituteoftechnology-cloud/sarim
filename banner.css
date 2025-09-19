@@ -5,6 +5,9 @@
     padding: 0;
 }
 
+body{
+  font-family: 'poppins' , sans-serif;
+}
 .flex{
     display: flex;
     gap: 20px;
@@ -114,7 +117,7 @@
 }
 .paragraph{
   color: #1f2937;
-  font-size: 16px;
+  font-size: 14px;
   margin-bottom: 30px;
 }
 
@@ -228,7 +231,7 @@
 }
 /* Heading */
 .heading-areas h2{
-    font-size: 32px;
+    font-size: 40px;
     margin-bottom: 10px;
 }
 
@@ -406,144 +409,270 @@
 }
 
 
+/footer/
+
+.arrow{
+    padding: 8px 14px;
+    border-radius: 50%;
+    cursor: pointer;
+}
+
+
+.footer {
+    background: #fff;
+    padding: 100px 60px 20px 60px;
+    position: relative;
+    overflow: visible;
+    margin-top: 40px;
+}
+
+.footer .arrow-wrapper {
+    position: absolute;
+    top: 10px;
+    left: 0;
+    width: 100%;
+    text-align: center;
+}
+
+ /* Arrow Circle */
+.footer .up-arrow {
+    display: inline-flex;
+    background: blue;
+    width: 60px;
+    height: 60px;
+    border-radius: 50%;
+    color: #fff;
+    font-size: 26px;
+    font-weight: bold;
+    cursor: pointer;
+}
+
+.footer-content {
+    gap: 20px;
+}
+
+.footer-column {
+    line-height: 1.8;
+}
+
+.footer-column h3 {
+    font-weight: 500;
+    margin-bottom: 15px;
+    color: black ;
+}
+
+.footer-column .line {
+    width: 50px;
+    height: 3px;
+    background:  blue;
+    border-radius: 2px;
+}
+
+.footer-column p {
+    font-size: 16px;
+    color: black;
+    margin-top: 10px;
+}
+
+.footer-column ul {
+    list-style: none;
+    margin-top: 10px;
+    padding: 0;
+}
+
+.footer-column ul li {
+    margin-bottom: 8px;
+    font-size: 14px;
+    color: black;
+}
+
+.footer-column ul li a{
+    font-size: 14px;
+    text-decoration: none;
+    color: black;
+}
+
+ /* Contact Column */
+.contact-item {
+    margin: 8px 0;
+    font-size: 14px;
+    color: black;
+}
+
+.contact-item span img{
+    margin-right: 10px;
+    font-size: 16px;
+    color: blue;
+}
+
+    /* Social Icons */
+.social {
+    margin-top: 15px;
+    gap: 25px;
+}
+
+.social span img {
+    width: 32px;
+}
+.footer-column .line {
+    width: 50px;
+    height: 3px;
+    background:  blue;
+    border-radius: 2px;
+    margin-bottom: 10px;
+}
+
+    
+    /* Bottom Bar */
+.footer-bottom {
+    border-top: 1px solid rgba(0, 0, 0, 0.2);
+    margin-top: 30px;
+    padding-top: 15px;
+    margin-bottom: 20px;
+    font-size: 16px;
+    color: black;
+}
+
+.footer-bottom .logo{
+    gap: 10px;
+}
+
+.footer-bottom img{
+    height: 25px;
+    margin-left: 10px;
+}
+
 .Arrow{
-  width: 69px;     
-  height: 69px;
-  background: #4581FB; 
-  border-radius: 50%;   
-  cursor: pointer;
+    padding: 8px 14px;
+    border-radius: 50%;
+    cursor: pointer;
+    width: 5px;
+    height: 5px;
 }
-.Arrow img{
-  width: 20px;   
-}
+
+
 .footer{
-  background-color: #fff;
-}
-/* --- Footer Top --- */
-.footer-top{
-  padding-bottom: 40px;
-  padding-top: 25px;
-}
-
-.footer-top .About-Us{
-  flex: 1 1 220px;  /* min width 220px, baaki space equally le */
-}
-.space{
-  padding-right: 50px;
-}
-.footer-top h3 {
-  font-size: 18px;
-  font-weight: 500;
-  margin-bottom: 8px;
-  color: #2C3D5F;
+    background: #fff;
+    padding: 100px 60px 20px 60px;
+    position: relative;
+    overflow: visible;
+    margin-top: 40px;
 }
 
-.footer-top .line {
-  display: block;
-  width: 34px;
-  height: 2px;
-  background: #4581FB;
-  margin-bottom: 15px;
+.footer .Arrow-wrapper{
+    position: absolute;
+    top: 10px;
+    left: 0;
+    width: 100%;
+    text-align: center;
 }
 
-.footer-top p{
-  padding-right: 31px;
-  font-size: 16px;
-  font-weight: 400;
-  color: #2C3D5F;
-  line-height: 25px;
-  opacity: 70%;
-}
-.Buy{
-   padding-left: 50px;
-}
-.items-li{
-  padding-left: 50px;
+ /* Arrow Circle */
+.footer .Arrow{
+    display: inline-flex;
+    background: blue;
+    width: 60px;
+    height: 60px;
+    border-radius: 50%;
+    color: #fff;
+    font-size: 26px;
+    font-weight: bold;
+    cursor: pointer;
 }
 
-.footer-top ul{
-  list-style: none;
+.footer-content {
+    gap: 20px;
 }
 
-/* --- Contact Info --- */
-.contact-items{
-  padding-bottom: 30px;
-}
-.contact-info .contact-items img {
-  width: 24px;
-  height: 24px;
-  margin-right: 15px;
+.footer-column {
+    line-height: 1.8;
 }
 
-.contact-info .contact-items p {
-  font-size: 16px;
-  opacity: 70%;
-  line-height: 24px;
-  margin: 0;
-  color: #2C3D5F;
+.footer-column h3 {
+    font-weight: 500;
+    margin-bottom: 15px;
+    color: black ;
 }
 
-.social-icons a {
-  margin-right: 30px;
+.footer-column .line {
+    width: 50px;
+    height: 3px;
+    background:  blue;
+    border-radius: 2px;
 }
 
-.social-icons img {
-  width: 32px;
-  height: 32px;
-}
-.footer-col ul{
-  list-style: none;
-  padding: 0;
-}
-.footer-col ul li{
-  margin: 6px 0;
-}
-.footer-col ul li a{
-  text-decoration: none;
-  color:#2C3D5F;
+.footer-column p {
+    font-size: 16px;
+    color: black;
+    margin-top: 10px;
 }
 
-
-/* --- Footer Bottom --- */
-.border{
-  background-color: #243D4C;
-  opacity: 20%;
-  height: 1px;
-  width: 1440px;
-  padding: 0;
-}
-.footer-End{
-  padding-bottom: 35px;
-}
-.footer-End img{
-  
-  width: 37px;
-  height: 38px;
-}
-.footer-End p{
-  width: 336px;
-  height: 30px;
-  top: 4614px;
-  left: 135px;
-  padding-left: 10px;
-  font-size: 16px;
-  opacity: 70%;
-}
-.ATM-Card{
-  gap: 15px;
-  padding-left: 535px;
+.footer-column ul {
+    list-style: none;
+    margin-top: 10px;
+    padding: 0;
 }
 
+.footer-column ul li {
+    margin-bottom: 8px;
+    font-size: 14px;
+    color: black;
+}
 
+.footer-column ul li a{
+    font-size: 14px;
+    text-decoration: none;
+    color: black;
+}
 
+ /* Contact Column */
+.contact-item {
+    margin: 8px 0;
+    font-size: 14px;
+    color: black;
+}
 
+.contact-item span img{
+    margin-right: 10px;
+    font-size: 16px;
+    color: blue;
+}
 
+    /* Social Icons */
+.social {
+    margin-top: 15px;
+    gap: 25px;
+}
 
+.social span img {
+    width: 32px;
+}
+.footer-column .line {
+    width: 50px;
+    height: 3px;
+    background:  blue;
+    border-radius: 2px;
+    margin-bottom: 10px;
+}
 
+    
+    /* Bottom Bar */
+.footer-bottom{
+    border-top: 1px solid rgba(0, 0, 0, 0.2);
+    margin-top: 30px;
+    padding-top: 15px;
+    margin-bottom: 20px;
+    font-size: 16px;
+    color: black;
+}
 
+.footer-bottom .logo{
+    gap: 10px;
+}
 
-
-
-
+.footer-bottom img{
+    height: 25px;
+    margin-left: 10px;
+}
 
 
