@@ -59,6 +59,9 @@ body{
 
 /* Globle Css End */
 
+.grey{
+    background-color: #F4F8F9;
+}
 
 /* Logo */
 .header .logo {
@@ -92,7 +95,8 @@ body{
 
 /* Icons */
 .icons{
-  padding: 15px;
+  padding: 20px;
+  gap: 15px;
   cursor: pointer;
 }
 
@@ -292,6 +296,7 @@ body{
 }
 
 .image-box{
+    padding-top: 30px;
     width: 410px;
     position: relative;
     overflow: hidden;
@@ -409,7 +414,7 @@ body{
 }
 
 
-/footer/
+/* footer Start Page 1 */
 
 .arrow{
     padding: 8px 14px;
