@@ -128,7 +128,7 @@ header{
     width: 495px;
 }
 .SKU{
-    gap: 43px;
+    gap: 75px;
     padding-bottom: 10px;
 }
 .SKU p{
@@ -138,7 +138,11 @@ header{
     opacity: 50%;
 }
 .Availability{
+    gap: 20px;
     padding-bottom: 20px;
+}
+.Availability span{
+    opacity: 50%;
 }
 .title{
     padding-bottom: 20px;
@@ -166,22 +170,41 @@ header{
 .abc .active{
     color: #4581FB;
 }
+
 .color span{
-    width: 20px;
-    height: 20px;
+    width: 24px;
+    height: 24px;
     border-radius: 50%;
     border: none;
     cursor: pointer;
 }
 .brown{
-    background-color: brown;
+    background: radial-gradient(circle at center, #1F1D22, #4C4B4E);
 }
 .navy-blue{
-    background-color: #4581FB;
+    background: radial-gradient(circle at center, #5287A1, #2A6481);
 }
 .dark-blue{
-    background-color: blue;
+    background: radial-gradient(circle at center, #3C3F5B, #434878);
 }
 .red{
-    background-color: red;
+    background: radial-gradient(circle at center, #F64C4B, #D42C2B);
+}
+
+.Size{
+    gap: 73px;
+    padding-bottom: 10px;
+}
+.Size p{
+    font-weight: 400;
+}
+.Size span{
+    opacity: 50%;
+}
+.Material{
+    gap: 45px;
+    padding-bottom: 20px;
+}
+.Material span{
+    opacity: 50%;
 }
