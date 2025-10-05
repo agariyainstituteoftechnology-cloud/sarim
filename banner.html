@@ -7,119 +7,130 @@
     <link rel="preconnect" href="https://fonts.googleapis.com">
 <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
 <link href="https://fonts.googleapis.com/css2?family=Inter:ital,opsz,wght@0,14..32,100..900;1,14..32,100..900&family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap" rel="stylesheet">
-    <link rel="stylesheet" href="banner.css">
+    <link rel="stylesheet" href="css/figma.css">
 <body>
 
   <div class="grey">
     <!-- Header -->
-    <header class="header">
-        <div class="container">
-            <div class="flex item-center justify-center w-full wrapper">
-                <!-- Logo -->
-                <div class="logo">
-                    <img src="images/logo.png" alt="logo" class="logo" />
-                </div>
+    <header class="container">
+        <div class="header">
+          <div class="flex item-center justify-center w-full wrapper">
+              <!-- Logo -->
+              <div class="logo">
+                <img src="images/logo.png" alt="logo" class="logo" />
+              </div>
 
-                <!-- Navigation -->
-                <div class="main-header">
-                    <nav>
-                        <ul class="nav-menu flex">
+              <!-- Navigation -->
+              <div class="main-header">
+                <nav>
+                  <ul class="nav-menu flex">
+                    <li><a href="#" class="active">Home</a></li>
+                    <li><a href="#">Shop</a></li>
+                    <li><a href="#">Men</a></li>
+                    <li><a href="#">Women</a></li>
+                    <li><a href="#">Kids</a></li>
+                    <li><a href="#">Contact us</a></li>
+                  </ul>
+                </nav>
+              </div>
 
-                            <li><a href="#" class="active">Home</a></li>
-                            <li><a href="#">Shop</a></li>
-                            <li><a href="#">Men</a></li>
-                            <li><a href="#">Women</a></li>
-                            <li><a href="#">Kids</a></li>
-                            <li><a href="#">Contact us</a></li>
-                        </ul>
-                    </nav>
-                </div>
-
-                <!-- Icons -->
-                <div class="icons flex">
-                    <img src="images/user.png" alt="user" class="user" />
-                    <img src="images/search.png" alt="search" class="search" />
-                    <img src="images/shopping-bag.png" alt="shopping-bag" class="shopping" />
-                </div>
-            </div>
+              <!-- Icons -->
+              <div class="icons flex">
+                <img src="images/user.png" alt="user" class="user" />
+                <img src="images/search.png" alt="search" class="search" />
+                <img src="images/shopping-bag.png" alt="shopping-bag" class="shopping" />
+              </div>
+          </div>
         </div>
   </header>
   
     <section class="banner">
         <div class="container">
-            <div class=" hero flex items-center justify-center">
-                <div class="hero-content">
-                    <h1 class="heading"><span class="bold">Fashion</span> Up Your Look</h1>
-                    <p class="paragraph">30 Skins, powerful features, great support, exclusive offer</p>
-                    <a href="#" class="btn">Shop Now</a>
+          <div class=" hero flex items-center justify-center">
+              <div class="hero-content">
+                <h1 class="heading"><span class="bold">Fashion</span> Up Your Look</h1>
+                <p class="paragraph">30 Skins, powerful features, great support, exclusive offer</p>
+                <a href="#" class="btn-now">Shop Now</a>
                 
-                   <div class="slider-dots">
-                     <span></span>
-                     <span class="active"></span>
-                     <span></span>
-                     <span></span>
-                   </div>
+                <div class="slider-dots">
+                  <span></span>
+                  <span class="active"></span>
+                  <span></span>
+                  <span></span>
                 </div>
+              </div>
                 <div class="hero-image flex item-center">
-                    <img src="images/Anti.png" alt="Anti" />
+                  <img src="images/Anti.png" alt="Anti" />
                 </div>
-            </div>
+          </div>
         </div>
     </section>
 
-    <section class="categories">
+    <div class="grey">
+      <section class="categories">
         <div class="container">
-            <div class="cat-grid">
+          <div class="cat-grid">
             <!-- Sale -->
             <a class="cat-card sale" href="#"
-                style="--img: url('images/sale.png');">
-                <span class="cat-badge">Sale</span>
+              style="--img: url('../images/Sale.png');">
+              <span class="cat-badge">Sale</span>
             </a>
 
             <!-- Women (tall) -->
             <a class="cat-card women" href="#"
-                style="--img: url('images/women.png');">
-                <span class="cat-badge">Women</span>
+              style="--img: url('../images/women.png');">
+              <span class="cat-badge">Women</span>
             </a>
 
             <!-- Men -->
             <a class="cat-card men" href="#"
-                style="--img: url('images/men.png');">
-                <span class="cat-badge">Men</span>
+              style="--img: url('../images/men.png');">
+              <span class="cat-badge">Men</span>
             </a>
 
             <!-- Accessories -->
             <a class="cat-card accessories" href="#"
-                style="--img: url('images/accessories.png');">
-                <span class="cat-badge">Accessories</span>
+              style="--img: url('../images/accessories.png');">
+              <span class="cat-badge">Accessories</span>
             </a>
 
             <!-- New -->
             <a class="cat-card new" href="#"
-                style="--img: url('images/new.png');">
+                style="--img: url('../images/New.png');">
                 <span class="cat-badge">New</span>
             </a>
 
             <!-- Shoes (wide) -->
             <a class="cat-card shoes" href="#"
-                style="--img: url('images/shoes.png');">
-                <span class="cat-badge">Shoes</span>
+              style="--img: url('../images/shoes.png');">
+              <span class="cat-badge">Shoes</span>
             </a>
-            </div>
+          </div>
         </div>
-    </section>
+      </section>
     </div>
 
     <section class="container">
-        <div class="heading-areas">
-            <h2><span class="bold">Best</span> Seller</h2>
-            <p>Top Product Of This Week</p>
-        </div>
+      <div class="heading-areas">
+        <h2><span class="bold">Best</span> Seller</h2>
+        <p>Top Product Of This Week</p>
+      </div>
         
-        <div class="products-flexbox">
-            <!-- Product-1 -->
-            <div class="product">
-                <img src="images/seller11.png" alt="Seller1" class="main-img" />
+      <div class="products-flexbox">
+        <!-- Product-1 -->
+        <div class="product">
+          <div class="prd-img-wrap">
+            <img src="images/seller11.png" alt="Seller1" class="main-img" />
+              <div class="option">
+                <button class="zoom">
+                  <img src="images/zoom.png" alt="zoom">
+                </button>
+                <button class="cart">
+                  <img src="images/cart.png" alt="cart">
+                </button>
+              </div>
+          </div>
+
                 <img src="images/4star.png" alt="4star" class="star" />
                 <p>Premier Cropped Skinny Jean</p>
                 <h3>$385.00</h3>
@@ -127,7 +138,18 @@
 
             <!-- Product-2 -->
             <div class="product">
+              <div class="prd-img-wrap">
                 <img src="images/Seller2.png" alt="Seller2" class="main-img" />
+                  <div class="option">
+                    <button class="zoom">
+                      <img src="images/zoom.png" alt="zoom">
+                    </button>
+                    <button class="cart">
+                      <img src="images/cart.png" alt="cart">
+                    </button>
+                  </div>
+              </div>
+
                 <img src="images/2star.png" alt="2star" class="star" />
                 <p>Premier Cropped Skinny Jean</p>
                 <h3>$385.00</h3>
@@ -135,7 +157,18 @@
 
             <!-- Product-3 -->
             <div class="product">
+              <div class="prd-img-wrap">
                 <img src="images/Seller3.png" alt="Seller3" class="main-img" />
+                  <div class="option">
+                    <button class="zoom">
+                      <img src="images/zoom.png" alt="zoom">
+                    </button>
+                    <button class="cart">
+                      <img src="images/cart.png" alt="cart">
+                    </button>
+                  </div>
+              </div>
+
                 <img src="images/3star.png" alt="3star" class="star" />
                 <p>Premier Cropped Skinny Jean</p>
                 <h3>$385.00</h3>
@@ -143,15 +176,37 @@
 
             <!-- Product-4 -->
             <div class="product">
+              <div class="prd-img-wrap">
                 <img src="images/Seller4.png" alt="Seller4" class="main-img" />
+                  <div class="option">
+                    <button class="zoom">
+                      <img src="images/zoom.png" alt="zoom">
+                    </button>
+                    <button class="cart">
+                      <img src="images/cart.png" alt="cart">
+                    </button>
+                  </div>
+              </div>
+
                 <img src="images/2star.png" alt="2star" class="star" />
                 <p>Premier Cropped Skinny Jean</p>
                 <h3>$385.00</h3>
             </div>
         
-             <!-- Product-5 -->
+            <!-- Product-5 -->
             <div class="product">
+              <div class="prd-img-wrap">
                 <img src="images/Seller5.png" alt="Seller5" class="main-img" />
+                  <div class="option">
+                    <button class="zoom">
+                      <img src="images/zoom.png" alt="zoom">
+                    </button>
+                    <button class="cart">
+                      <img src="images/cart.png" alt="cart">
+                    </button>
+                  </div>
+              </div>
+
                 <img src="images/2star.png" alt="2star" class="star" />
                 <p>Premier Cropped Skinny Jean</p>
                 <h3>$385.00</h3>
@@ -159,7 +214,18 @@
 
              <!-- Product-6 -->
             <div class="product">
+              <div class="prd-img-wrap">
                 <img src="images/Seller6.png" alt="Seller6" class="main-img" />
+                  <div class="option">
+                    <button class="zoom">
+                      <img src="images/zoom.png" alt="zoom">
+                    </button>
+                    <button class="cart">
+                      <img src="images/cart.png" alt="cart">
+                    </button>
+                  </div>
+              </div>
+
                 <img src="images/3star.png" alt="3star" class="star" />
                 <p>Premier Cropped Skinny Jean</p>
                 <h3>$385.00</h3>
@@ -167,7 +233,18 @@
 
              <!-- Product-7 -->
             <div class="product">
+              <div class="prd-img-wrap">
                 <img src="images/Seller7.png" alt="Seller7" class="main-img" />
+                  <div class="option">
+                    <button class="zoom">
+                      <img src="images/zoom.png" alt="zoom">
+                    </button>
+                    <button class="cart">
+                      <img src="images/cart.png" alt="cart">
+                    </button>
+                  </div>
+              </div>
+
                 <img src="images/2star.png" alt="2star" class="star" />
                 <p>Premier Cropped Skinny Jean</p>
                 <h3>$385.00</h3>
@@ -175,10 +252,21 @@
 
              <!-- Product-8 -->
             <div class="product">
+              <div class="prd-img-wrap">
                 <img src="images/Seller8.png" alt="Seller8" class="main-img" />
-                <img src="images/4star.png" alt="4star" class="star" />
-                <p>Premier Cropped Skinny Jean</p>
-                <h3>$385.00</h3>
+                  <div class="option">
+                    <button class="zoom">
+                      <img src="images/zoom.png" alt="zoom">
+                    </button>
+                    <button class="cart">
+                      <img src="images/cart.png" alt="cart">
+                    </button>
+                  </div>
+              </div>
+
+              <img src="images/4star.png" alt="4star" class="star" />
+              <p>Premier Cropped Skinny Jean</p>
+              <h3>$385.00</h3>
             </div>
         </div>     
     </section>
@@ -271,7 +359,7 @@
     <!-- Arrow Circle -->
     <div class="container">
       <div class="Arrow-wrapper">
-        <div class="Arrow justify-content item-center">
+        <div class="Arrow justify-content items-center">
           <img src="images/Arrow.png" alt="Arrow">
         </div>
       </div>
