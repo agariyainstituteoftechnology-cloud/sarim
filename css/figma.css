@@ -3,7 +3,7 @@
   margin: 0;
   padding: 0;
   box-sizing: border-box;
-  font-family: "Poppins", sans-serif;
+  font-family: "Poppins";
 }
 .container {
   max-width: 1280px;
@@ -501,6 +501,7 @@ header .icons {
   padding: 8px 14px;
   border-radius: 50%;
   cursor: pointer;
+  gap: 5px;
 }
 /* Product Section */
 .page-bg {
@@ -508,7 +509,7 @@ header .icons {
   padding: 60px 20px 60px 20px;
   position: relative;
   overflow: visible;
-  margin-top: 40px;
+  margin-top: 20px;
 }
 .product-section {
   gap: 20px;
